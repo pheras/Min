@@ -86,7 +86,7 @@ public class MinTest
 
     // THIS TEST FAILS ON PURPOSE
     @Test
-	public void testDoubleElement()
+	public void testDoubleElement2()
     {
 	list.add ("dog");
 	list.add ("cat");
