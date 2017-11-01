@@ -74,6 +74,7 @@ public class MinTest
 	assertTrue ("Single Element List", obj.equals ("cat"));
     }
 
+
    @Test
        public void testDoubleElement()
     {
