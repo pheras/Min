@@ -84,14 +84,5 @@ public class MinTest
 	assertTrue ("Double Element List", obj.equals ("cat"));
     }
 
-    // THIS TEST FAILS ON PURPOSE
-    @Test
-	public void testDoubleElement2()
-    {
-	list.add ("dog");
-	list.add ("cat");
-	Object obj = Min.min (list);
-	assertTrue ("Double Element List", obj.equals ("dog"));
-    }
     
 }
